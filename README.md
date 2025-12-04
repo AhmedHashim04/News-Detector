@@ -117,7 +117,7 @@ pip install pandas numpy scikit-learn matplotlib streamlit joblib
 Run the following command from the project root:
 
 ```bash
-python src/train_model.py --real data/True.csv --fake data/Fake.csv --text-col text --outdir outputs
+python train_model.py --real data/True.csv --fake data/Fake.csv --text-col text --outdir outputs
 ```
 
 This script will:
